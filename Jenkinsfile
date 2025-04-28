@@ -1,10 +1,12 @@
 pipeline {
     agent any
     environment {
-        DIRECTORY_PATH         = '/C:/Users/ravis/OneDrive/Documents/GitHub/6.1P       
-        TESTING_ENVIRONMENT    = 'testing'                     
-        PRODUCTION_ENVIRONMENT = 'RAvis-Production'         
-    }
+        
+    DIRECTORY_PATH         = 'C:/Users/Ravis/Documents/GitHub/6.1P'
+    TESTING_ENVIRONMENT    = 'testing'
+    PRODUCTION_ENVIRONMENT = 'Ravis-Production'
+}
+
     stages {
         stage('Build') {
             steps {
